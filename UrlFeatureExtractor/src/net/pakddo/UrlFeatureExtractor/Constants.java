@@ -3,7 +3,9 @@ package net.pakddo.UrlFeatureExtractor;
 public class Constants {
 	
 	final static String baseFilepath = "./";
+	
 	public final static String inputUrlFilePath = baseFilepath + "urlText/";
+	public final static String crawlOutputUrlFilePath = baseFilepath + "crawlingData/";
 	
 	final static String inputSmiFilepath = baseFilepath + "res_drama\\";
 	final static String middleFilepath = baseFilepath + "results\\middle\\";
